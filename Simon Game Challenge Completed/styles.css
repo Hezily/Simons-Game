@@ -1,0 +1,65 @@
+body {
+    text-align: center;
+    background: linear-gradient(135deg, #2c2c2c, #1a1a1a, #f5e1c8);
+    min-height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#level-title {
+    font-family: "Press Start 2P", cursive;
+    font-size: 3rem;
+    margin: 5%;
+    color: #fef2bf;
+    text-shadow: 3px 3px 15px rgba(255, 255, 255, 0.4);
+}
+
+.container {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+    transition:
+        transform 0.2s,
+        box-shadow 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+}
+
+.game-over {
+    background: linear-gradient(to right, #8b0000, #ff4b4b);
+    opacity: 0.9;
+}
+
+.red {
+    background: linear-gradient(to bottom, #8b0000, #ff0000);
+}
+
+.green {
+    background: linear-gradient(to bottom, #4caf50, #006400);
+}
+
+.blue {
+    background: linear-gradient(to bottom, #4b9eff, #000080);
+}
+
+.yellow {
+    background: linear-gradient(to bottom, #ffeb3b, #c8a415);
+}
+
+.pressed {
+    box-shadow: 0 0 30px white;
+    background: linear-gradient(to bottom, grey, #444);
+}
